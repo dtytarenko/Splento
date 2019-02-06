@@ -4830,10 +4830,14 @@ video::-webkit-media-controls-fullscreen-button {
           flex-direction: column;
   mix-blend-mode: normal;
   background-color: rgba(0, 0, 0, 0.45);
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .videolistBlock__maingroup:hover {
-  opacity: 0.8;
+  cursor: pointer;
+  opacity: 0.9;
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.45)), to(rgba(0, 0, 0, 0.45))), rgba(191, 191, 191, 0.45);
   background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), rgba(191, 191, 191, 0.45);
   background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), rgba(191, 191, 191, 0.45);

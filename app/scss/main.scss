@@ -2905,10 +2905,12 @@ video::-webkit-media-controls-fullscreen-button {
 		flex-direction: column;
 		mix-blend-mode: normal;
 		background-color: rgba(0, 0, 0, 0.45);
+		transition: all 0.3s;
 
 	
 		&:hover {
-			opacity: 0.8;
+			cursor: pointer;
+			opacity: 0.9;
 			background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), rgba(191, 191, 191, 0.45);
 		}
 		
