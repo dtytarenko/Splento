@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--[if IE 9]><html class="ie"><![endif]-->
+  <meta charset="utf-8" />
+  <title>splento</title>
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+    <div class="photoVideo">
+        <video class="photoVideo__video js-photoVideoMain" muted autoplay playsinline loop async="" poster="https://s3.amazonaws.com/www.invisionapp.com/static/projects/home/poster-masthead.jpg">
+            <source type="video/mp4" src="img/video.mp4">
+        </video>
+        <header class="photoVideo__header">
+            <div class="photoVideo__logo">
+                <a href="/">
+                    <img src="img/logo.svg" alt="">
+                </a>
+            </div>
+            <div class="photoVideo__menu">
+                <button type="button" name="button" class="photoVideo__mobileMenu mobileMenu js-mobileMenu" onclick="openPopUpMenu()">
+                    <span class="mobileMenu__line mobileMenu__line--l1"></span>
+                    <span class="mobileMenu__line mobileMenu__line--l2"></span>
+                    <span class="mobileMenu__line mobileMenu__line--l3"></span>
+                </button>
+            </div>
+        </header>
+        <div class="photoVideo__main photovideoMain">
+            <div class="photovideoMain__title">
+                <span class="photovideoMain__titleText">Photos <ins>+</ins> Videos Be<span class="photovideoMain__titleLetter">tt</span>er. </span><span class="photovideoMain__titleText"> <span class="photovideoMain__titleLetter">Ea</span>sier. Faster</span>
+            </div>
+            <p class="photovideoMain__text">With Splento ordering and receiving your professional visual content is as easy as buying a book, ordering a cab or booking a room</p>
+            <a href="#" class="photovideoMain__button">
+                book
+                <img src="img/arrow.svg" alt="">
+            </a>
+            <div class="photovideoMain__questions">
+                Questions? <a href="#" class="photovideoMain__questionsLink">Talk to an expert</a>.
+            </div>
+            <div class="photovideoMain__logoBlock">
+                <a href="#" class="photovideoMain__logo">
+                    <img src="img/trustpilot.svg" class="photovideoMain__logoItem" alt="">
+                    <img src="img/trustpilotstar.svg" class="photovideoMain__logoItem" alt="">
+                </a>
+            </div>
+            <div class="js-photovideoMain__watch photovideoMain__watch" id="playVideobutton">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 2C17.514 2 22 6.486 22 12C22 17.514 17.514 22 12 22C6.486 22 2 17.514 2 12C2 6.486 6.486 2 12 2ZM12 0C5.373 0 0 5.373 0 12C0 18.627 5.373 24 12 24C18.627 24 24 18.627 24 12C24 5.373 18.627 0 12 0ZM9 17V7L18 12.146L9 17Z" fill="white"/>
+                </svg>
+                <span>Watch Video</span>
+            </div>
+        </div>
+        <div class="photoVideo__slider js-photoVideo__slider carousel">
+            <div class="photoVideo__sliderItem sliderAdvantages">
+                <div class="sliderAdvantages__item">
+                    <div class="sliderAdvantages__img">
+                        <img src="img/fast.svg" class="sliderAdvantages__imgSvg" alt="">
+                    </div>
+                    <div class="sliderAdvantages__info">
+                        <span class="sliderAdvantages__title">Fast Delivery Guaranteed</span>
+                        <span class="sliderAdvantages__text">Photos delivered in 48 hours</span>
+                    </div>
+                </div>
+                <div class="sliderAdvantages__border"></div>
+                <div class="sliderAdvantages__item">
+                    <div class="sliderAdvantages__img">
+                        <img src="img/recommended.svg" class="sliderAdvantages__imgSvg" alt="">
+                    </div>
+                    <div class="sliderAdvantages__info">
+                        <span class="sliderAdvantages__title">Reliability Guaranteed</span>
+                        <span class="sliderAdvantages__text">No last-minute cancellations</span>
+                    </div>
+                </div>
+                <div class="sliderAdvantages__border"></div>
+                <div class="sliderAdvantages__item">
+                    <div class="sliderAdvantages__img">
+                        <img src="img/quality.svg" class="sliderAdvantages__imgSvg" alt="">
+                    </div>
+                    <div class="sliderAdvantages__info">
+                        <span class="sliderAdvantages__title">Quality Guaranteed</span>
+                        <span class="sliderAdvantages__text">High-quality results every time</span>
+                    </div>
+                </div>
+            </div>
+            <div class="photoVideo__sliderItem sliderLogo">
+                <div class="sliderLogo__item">
+                    <img src="img/logos_1.png" alt="">
+                </div>
+                <div class="sliderLogo__item">
+                    <img src="img/logos_2.png" alt="">
+                </div>
+                <div class="sliderLogo__item">
+                    <img src="img/logos_3.png" alt="">
+                </div>
+                <div class="sliderLogo__item">
+                    <img src="img/logos_4.png" alt="">
+                </div>
+                <div class="sliderLogo__item">
+                    <img src="img/logos_5.png" alt="">
+                </div>
+                <div class="sliderLogo__item sliderLogo__item--desktop">
+                    <img src="img/logos_6.png" alt="">
+                </div>
+                <div class="sliderLogo__item sliderLogo__item--tablet">
+                    <img src="img/logos_7.png" alt="">
+                </div>
+                <div class="sliderLogo__item sliderLogo__item--tablet">
+                    <img src="img/logos_8.png" alt="">
+                </div>
+                <div class="sliderLogo__item sliderLogo__item--tablet">
+                    <img src="img/logos_9.png" alt="">
+                </div>
+                <div class="sliderLogo__item sliderLogo__item--tablet">
+                    <img src="img/logos_10.png" alt="">
+                </div>
+                <div class="sliderLogo__item sliderLogo__item--tablet">
+                    <img src="img/logos_11.png" alt="">
+                </div>
+                <div class="sliderLogo__item sliderLogo__item--tablet">
+                    <img src="img/logos_12.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="blockWithPicture">
+        <div class="blockWithPicture__block">
+            <div class="blockWithPicture__left">
+                <h2 class="caseStudies__title">Our dedication to making the impossible possible</h2>
+                <p class="blockWithPicture__text">In a world dominated by social media, you want to make sure that your visual content is great and stands out from the crowd.</p>
+                <p class="blockWithPicture__text">Fair prices, quick turnarounds and great quality. This is all it takes for the success and this is exactly what we can provide you with.</p>
+                <p class="blockWithPicture__text">We carefully select our videographers and video editors to ensure the best results within guaranteed timelines.</p>
+            </div>
+            <div class="blockWithPicture__right">
+                <div class="blockWithPicture__picture" style="background-image: url(img/pictureBlock.png);"></div>
+            </div>
+        </div>
+    </div>
+    <div class="textSliderBlock">
+        <div class="textSlider js-textSlider">
+            <div class="textSlider__item carousel-cell">
+                <div class="textSlider__block">
+                    <span class="textSlider__blockText">Wonderful session and experience, had great time and received quality videos! Thank you! !</span> <a data-id="0" href="javascript:void(0);" class="js-textSlider_readMore">Read more</a>
+                    <img src="img/trustpilotstar.svg" class="textSlider__img" alt="">
+                </div>
+                <span class="textSlider__title">“Splento - Quality and speed”</span>
+                <span class="textSlider__name">Teenagency Prod</span>
+            </div>
+            <div class="textSlider__item carousel-cell">
+                <div class="textSlider__block">
+                    <span class="">I booked a videographer for the annual party of our company. Alessandro showed up on time. We didn't notice him during the party and he was polite and professional when he engaged with some of us for some fun shots.</a>
+                    <img src="img/trustpilotstar.svg" class="textSlider__img" alt="">
+                </div>
+                <span class="textSlider__title">“All Smooth”</span>
+                <span class="textSlider__name">Flavio</span>
+            </div>
+            <div class="textSlider__item carousel-cell">
+                <div class="textSlider__block">
+                    <span class="textSlider__blockText">Good communication and follow-up after event. Great photos and videos and really easy to work with.</span> <a data-id="2" href="javascript:void(0);" class="js-textSlider_readMore">Read more</a>
+                    <img src="img/trustpilotstar.svg" class="textSlider__img" alt="">
+                </div>
+                <span class="textSlider__title">“Good communication!”</span>
+                <span class="textSlider__name">Sarah Burnes</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="priceBlock">
+        <div class="priceBlock__block">
+            <h2 class="caseStudies__title">Simple, Flexible Pricing Options</h2>
+            <div class="priceBlock__list">
+                <a href="javascript:void(0);" class="priceBlock__item js-priceBlock__item" data-popup-link="filming" style="background-image: url(img/price_01.png);">
+                    <div class="priceBlock__text">
+                        <span class="priceBlock__title">Sliver</span>
+                        <span class="priceBlock__price">£149/hour</span>
+                        <span class="priceBlock__descr"> Message for target audience. 2-3 lines. Message for target audience. 2-3 lines.</span>
+                        <span class="priceBlock__link">See examples</span>
+                    </div>
+                <div class="priceBlock-list__descr">
+                    <p class="priceblock__list-descr__item-text"> 8 hours of videography</p>
+                    <p class="priceblock__list-descr__item-text">5x15 sec videos</p>
+                    <p class="priceblock__list-descr__item-text">1x1min video</p>
+                </div>
+                    
+                </a>
+                
+                <a href="javascript:void(0);" class="priceBlock__item js-priceBlock__item" data-popup-link="editing" style="background-image: url(img/price_02.png);">
+                    <div class="priceBlock__text">
+                        <span class="priceBlock__title">Gold</span>
+                        <span class="priceBlock__price">£3,000</span>
+                        <span class="priceBlock__descr"> Message for target audience. 2-3 lines. Message for target audience. 2-3 lines.</span>
+                        <span class="priceBlock__link">See examples</span>
+                    </div>
+
+                    <div class="priceBlock-list__descr">
+                        <p class="priceblock__list-descr__item-text"> 16 hours of videography</p>
+                        <p class="priceblock__list-descr__item-text">10x15 sec videos</p>
+                        <p class="priceblock__list-descr__item-text">16 hours of videography </p>
+                        <p class="priceblock__list-descr__item-text">10x15 sec videos</p>
+                        <p class="priceblock__list-descr__item-text">16 hours of videography </p>
+                    </div>
+                </a>
+                <a href="javascript:void(0);" class="priceBlock__item js-priceBlock__item" data-popup-link="drone" style="background-image: url(img/price_03.png);">
+                    <div class="priceBlock__text">
+                        <span class="priceBlock__title">Platinum</span>
+                        <span class="priceBlock__price">£6,999</span>
+                        <span class="priceBlock__descr"> Message for target audience. 2-3 lines. Message for target audience. 2-3 lines.</span>
+                        <span class="priceBlock__link">See examples</span>
+                    </div>
+
+                    <div class="priceBlock-list__descr">
+                        <p class="priceblock__list-descr__item-text">Branded video with models</p>
+                        <p class="priceblock__list-descr__item-text"> 24 hours of videography</p>
+                        <p class="priceblock__list-descr__item-text">10x15 sec videos</p>
+                        <p class="priceblock__list-descr__item-text">24 hours of videography</p>
+                        <p class="priceblock__list-descr__item-text">10x15 sec videos</p>
+                        <p class="priceblock__list-descr__item-text">24 hours of videography</p>
+                        <p class="priceblock__list-descr__item-text">10x15 sec videos</p>
+                        <p class="priceblock__list-descr__item-text">24 hours of videography </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="videolistBlock">
+        <div class="videolistBlock__item">
+            <div class="videolistBlock__maingroup">
+                <video class="videolistBlock__video"  muted="" playsinline="" loop="" async="" poster="img/branded.png">
+                    <source type="video/mp4" src="img/video.mp4">
+                </video>
+                <p class="videolistBlock__title">King Suite</p>
+                <p class="videolistBlock__time">15 sec</p>
+                <div class="videolistBlock__watch">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M12 2C17.514 2 22 6.486 22 12C22 17.514 17.514 22 12 22C6.486 22 2 17.514 2 12C2 6.486 6.486 2 12 2ZM12 0C5.373 0 0 5.373 0 12C0 18.627 5.373 24 12 24C18.627 24 24 18.627 24 12C24 5.373 18.627 0 12 0ZM9 17V7L18 12.146L9 17Z" fill="white"/>
+                    </svg>
+                </div>
+            </div>
+
+            <a href="#" class="videolistBlock__button"> Load more </a>
+        </div>
+        <div class="videolistBlock__item">
+            <div class="videolistBlock__maingroup">
+                <video class="videolistBlock__video"  muted="" playsinline="" loop="" async="" poster="img/wellbeing.png">
+                    <source type="video/mp4" src="img/video.mp4">
+                </video>
+                <p class="videolistBlock__title">Wellbeing Area</p>
+                <p class="videolistBlock__time">15 sec</p>
+                <div class="videolistBlock__watch">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M12 2C17.514 2 22 6.486 22 12C22 17.514 17.514 22 12 22C6.486 22 2 17.514 2 12C2 6.486 6.486 2 12 2ZM12 0C5.373 0 0 5.373 0 12C0 18.627 5.373 24 12 24C18.627 24 24 18.627 24 12C24 5.373 18.627 0 12 0ZM9 17V7L18 12.146L9 17Z" fill="white"/>
+                    </svg>
+                </div>
+            </div>
+
+            <a href="#" class="videolistBlock__button"> Load more </a>
+        </div>
+        <div class="videolistBlock__item">
+            <div class="videolistBlock__maingroup">
+                <p class="videolistBlock__Brandedtitle">All of Gold plus Branded video</p>
+
+                <video class="videolistBlock__video"  muted="" playsinline="" loop="" async="" poster="img/branded.png">
+                    <source type="video/mp4" src="img/video.mp4">
+                </video>
+                <p class="videolistBlock__title">Branded video</p>
+                <p class="videolistBlock__time">1 min 30 sec</p>
+                <div class="videolistBlock__watch">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M12 2C17.514 2 22 6.486 22 12C22 17.514 17.514 22 12 22C6.486 22 2 17.514 2 12C2 6.486 6.486 2 12 2ZM12 0C5.373 0 0 5.373 0 12C0 18.627 5.373 24 12 24C18.627 24 24 18.627 24 12C24 5.373 18.627 0 12 0ZM9 17V7L18 12.146L9 17Z" fill="white"/>
+                    </svg>
+                </div>
+            </div>
+
+            <a href="#" class="videolistBlock__button"> Load more </a>
+        </div>
+        
+    </div>
+    <div class="faqBlock">
+        <div class="faqBlock__block">
+            <h2 class="caseStudies__title">FAQ</h2>
+            <div class="faqBlock__list">
+                <div class="faqBlock__item" data-faq-id-item="1">
+                    <a href="javascript:void(0);" class="faqBlock__link js-faqBlock__link" data-faq-id-link="1">How can I book a videographer with Splento? <i class="faqBlock__icon"></i></a>
+                    <p class="faqBlock__text">
+                        If you're looking for a videographer in London, you can book one directly on our website. For the bookings in other cities - we now operate in all major cities WORLDWIDE - please contact our customer support at splento@splento.com or call 020 8123 1838.
+                    </p>
+                </div>
+                <div class="faqBlock__item" data-faq-id-item="2">
+                    <a href="javascript:void(0);" class="faqBlock__link js-faqBlock__link" data-faq-id-link="2">When will I receive my videos? How long does it take you to deliver the video? <i class="faqBlock__icon"></i></a>
+                    <p class="faqBlock__text">
+                        You will receive the first version of the video within 48 hours after your event. After that, you will have an opportunity to request changes to this draft. Please notice, that 2 version changes are included into the price, any extra change requests will have an extra cost.
+                    </p>
+                </div>
+                <div class="faqBlock__item" data-faq-id-item="3">
+                    <a href="javascript:void(0);" class="faqBlock__link js-faqBlock__link" data-faq-id-link="3">In what format will I receive the final videos? How is our video sent to us? <i class="faqBlock__icon"></i></a>
+                    <p class="faqBlock__text">
+                        After we've edited your video, you will receive a link with all the videos you requested. The standard format is 1920x1080 (full hd) .mp4, which can be used on the majority of the social media platforms.
+                    </p>
+                </div>
+                <div class="faqBlock__item" data-faq-id-item="4">
+                    <a href="javascript:void(0);" class="faqBlock__link js-faqBlock__link" data-faq-id-link="4">Can I hire multiple videographers? <i class="faqBlock__icon"></i></a>
+                    <p class="faqBlock__text">
+                        Yes, you can hire as many videographers as you need for your event. For big events and conferences we recommend booking at least two videographers, which will help you capture the most important moments of your event from multiple angles.
+                    </p>
+                </div>
+                <div class="faqBlock__item" data-faq-id-item="5">
+                    <a href="javascript:void(0);" class="faqBlock__link js-faqBlock__link" data-faq-id-link="5">How far in advance should I book the videographer? <i class="faqBlock__icon"></i></a>
+                    <p class="faqBlock__text">
+                        Depending on the location of the videography session, you can book a videographer in as little as 4 hours in advance. Please contact our customer support team to find out the details at splento@splento.com or call 020 8123 1838.
+                    </p>
+                </div>
+                <div class="faqBlock__item" data-faq-id-item="6">
+                    <a href="javascript:void(0);" class="faqBlock__link js-faqBlock__link" data-faq-id-link="6">How long will the video be? <i class="faqBlock__icon"></i></a>
+                    <p class="faqBlock__text">
+                        You can select the length of the video based on your needs. We have tailored pricing for different types of videos. Please contact our customer support team to find out the details at splento@splento.com or call 020 8123 1838.
+                    </p>
+                </div>
+                <div class="faqBlock__item" data-faq-id-item="7">
+                    <a href="javascript:void(0);" class="faqBlock__link js-faqBlock__link" data-faq-id-link="7">Can we have a custom videogrphy package? <i class="faqBlock__icon"></i></a>
+                    <p class="faqBlock__text">
+                        Yes, we can make the necessary arrangements to tailor the package specifically to your needs. Please email us at splento@splento.com or call 020 8123 1838.
+                    </p>
+                </div>
+                <div class="faqBlock__item" data-faq-id-item="8">
+                    <a href="javascript:void(0);" class="faqBlock__link js-faqBlock__link" data-faq-id-link="8">Do you use drones for recording your videos?<i class="faqBlock__icon"></i></a>
+                    <p class="faqBlock__text">
+                        Yes, depending on your needs, we can provide you with the licensed drone operator. Please contact our customer support team to find out the details at splento@splento.com or call 020 8123 1838.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="formBlock">
+        <div class="formBlock__block">
+            <h2 class="caseStudies__title">Our experts love to answer questions. Fill out the form below.</h2>
+            <div class="formBlock__form">
+                <script id="bx24_form_inline" data-skip-moving="true">
+                    (function(w,d,u,b){w['Bitrix24FormObject']=b;w[b] = w[b] || function(){arguments[0].ref=u;
+                            (w[b].forms=w[b].forms||[]).push(arguments[0])};
+                            if(w[b]['forms']) return;
+                            var s=d.createElement('script');s.async=1;s.src=u+'?'+(1*new Date());
+                            var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+                    })(window,document,'https://splento.bitrix24.com/bitrix/js/crm/form_loader.js','b24form');
+            
+                    b24form({"id":"32","lang":"en","sec":"skvnzs","type":"inline"});
+                </script>
+                <div class="formBlock__text">
+                    or&nbsp;call&nbsp;us at&nbsp;<a href="tel:020 8123 1838" class="formBlock__tel">020 8123 1838</a>, Monday-Friday, 9:00am-6:00pm
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pricePopUp js-pricePopUp" data-popup-id="filming">
+        <div class="pricePopUp__block">
+            <div class="pricePopUp__contaner">
+                <button class="pricePopUp__close js-pricePopUp__close" type="button" name="button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                        <path d="M14.8348 0.355541C14.6405 0.163357 14.3297 0.163357 14.1548 0.355541L7.58744 6.83216L0.845207 0.144138C0.650907 -0.0480462 0.340026 -0.0480462 0.165155 0.144138C-0.029145 0.336323 -0.029145 0.643818 0.165155 0.816784L6.90738 7.5048L0.145725 14.1928C-0.0485752 14.385 -0.0485752 14.6925 0.145725 14.8655C0.242876 14.9616 0.359456 15 0.495466 15C0.631477 15 0.748057 14.9616 0.845207 14.8655L7.60687 8.17745L14.1548 14.6541C14.2519 14.7502 14.3685 14.7886 14.5045 14.7886C14.6405 14.7886 14.7571 14.7502 14.8543 14.6541C15.0486 14.4619 15.0486 14.1544 14.8543 13.9814L8.28692 7.5048L14.8348 1.02819C15.0097 0.836002 15.0097 0.528507 14.8348 0.355541Z" fill="white"/>
+                    </svg>
+                </button>
+                <div class="pricePopUp__content">
+                    <div class="pricePopUp__text">
+                        <span class="pricePopUp__title">Filming</span>
+                        <p>We offer a broad range of filming options for our clients. This starts at a single operator with a digital camcorder and can go all the way through to a fully crewed shoot on 35mm film. We make sure our productions are tailored to meet clients requirements and their budgets without sacrificing quality.</p>
+
+                        <p>We have a great deal of equipment in house which enables us to move quickly on projects as well as to create extremely flexible shooting schedules but if you have bespoke needs then we are able to broker in specialist crew and kit for productions.</p>
+                        <p>We offer a broad range of filming options for our clients. This starts at a single operator with a digital camcorder and can go all the way through to a fully crewed shoot on 35mm film. We make sure our productions are tailored to meet clients requirements and their budgets without sacrificing quality.</p>
+
+                        <p>We have a great deal of equipment in house which enables us to move quickly on projects as well as to create extremely flexible shooting schedules but if you have bespoke needs then we are able to broker in specialist crew and kit for productions.</p>
+                    </div>
+                    <div class="pricePopUp__img">
+                        <img src="img/video-camera.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pricePopUp js-pricePopUp" data-popup-id="editing">
+        <div class="pricePopUp__block">
+            <div class="pricePopUp__contaner">
+                <button class="pricePopUp__close js-pricePopUp__close" type="button" name="button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                        <path d="M14.8348 0.355541C14.6405 0.163357 14.3297 0.163357 14.1548 0.355541L7.58744 6.83216L0.845207 0.144138C0.650907 -0.0480462 0.340026 -0.0480462 0.165155 0.144138C-0.029145 0.336323 -0.029145 0.643818 0.165155 0.816784L6.90738 7.5048L0.145725 14.1928C-0.0485752 14.385 -0.0485752 14.6925 0.145725 14.8655C0.242876 14.9616 0.359456 15 0.495466 15C0.631477 15 0.748057 14.9616 0.845207 14.8655L7.60687 8.17745L14.1548 14.6541C14.2519 14.7502 14.3685 14.7886 14.5045 14.7886C14.6405 14.7886 14.7571 14.7502 14.8543 14.6541C15.0486 14.4619 15.0486 14.1544 14.8543 13.9814L8.28692 7.5048L14.8348 1.02819C15.0097 0.836002 15.0097 0.528507 14.8348 0.355541Z" fill="white"/>
+                    </svg>
+                </button>
+                <div class="pricePopUp__content">
+                    <div class="pricePopUp__text">
+                        <span class="pricePopUp__title">Editing</span>
+                        <p>We offer a broad range of filming options for our clients. This starts at a single operator with a digital camcorder and can go all the way through to a fully crewed shoot on 35mm film. We make sure our productions are tailored to meet clients requirements and their budgets without sacrificing quality.</p>
+
+                        <p>We have a great deal of equipment in house which enables us to move quickly on projects as well as to create extremely flexible shooting schedules but if you have bespoke needs then we are able to broker in specialist crew and kit for productions.</p>
+                        <p>We offer a broad range of filming options for our clients. This starts at a single operator with a digital camcorder and can go all the way through to a fully crewed shoot on 35mm film. We make sure our productions are tailored to meet clients requirements and their budgets without sacrificing quality.</p>
+
+                        <p>We have a great deal of equipment in house which enables us to move quickly on projects as well as to create extremely flexible shooting schedules but if you have bespoke needs then we are able to broker in specialist crew and kit for productions.</p>
+                    </div>
+                    <div class="pricePopUp__img">
+                        <img src="img/editing_popup.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pricePopUp js-pricePopUp" data-popup-id="drone">
+        <div class="pricePopUp__block">
+            <div class="pricePopUp__contaner">
+                <button class="pricePopUp__close js-pricePopUp__close" type="button" name="button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                        <path d="M14.8348 0.355541C14.6405 0.163357 14.3297 0.163357 14.1548 0.355541L7.58744 6.83216L0.845207 0.144138C0.650907 -0.0480462 0.340026 -0.0480462 0.165155 0.144138C-0.029145 0.336323 -0.029145 0.643818 0.165155 0.816784L6.90738 7.5048L0.145725 14.1928C-0.0485752 14.385 -0.0485752 14.6925 0.145725 14.8655C0.242876 14.9616 0.359456 15 0.495466 15C0.631477 15 0.748057 14.9616 0.845207 14.8655L7.60687 8.17745L14.1548 14.6541C14.2519 14.7502 14.3685 14.7886 14.5045 14.7886C14.6405 14.7886 14.7571 14.7502 14.8543 14.6541C15.0486 14.4619 15.0486 14.1544 14.8543 13.9814L8.28692 7.5048L14.8348 1.02819C15.0097 0.836002 15.0097 0.528507 14.8348 0.355541Z" fill="white"/>
+                    </svg>
+                </button>
+                <div class="pricePopUp__content">
+                    <div class="pricePopUp__text">
+                        <span class="pricePopUp__title">Drone</span>
+                        <p>We offer a broad range of filming options for our clients. This starts at a single operator with a digital camcorder and can go all the way through to a fully crewed shoot on 35mm film. We make sure our productions are tailored to meet clients requirements and their budgets without sacrificing quality.</p>
+
+                        <p>We have a great deal of equipment in house which enables us to move quickly on projects as well as to create extremely flexible shooting schedules but if you have bespoke needs then we are able to broker in specialist crew and kit for productions.</p>
+                        <p>We offer a broad range of filming options for our clients. This starts at a single operator with a digital camcorder and can go all the way through to a fully crewed shoot on 35mm film. We make sure our productions are tailored to meet clients requirements and their budgets without sacrificing quality.</p>
+
+                        <p>We have a great deal of equipment in house which enables us to move quickly on projects as well as to create extremely flexible shooting schedules but if you have bespoke needs then we are able to broker in specialist crew and kit for productions.</p>
+                    </div>
+                    <div class="pricePopUp__img">
+                        <img src="img/dron.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popupMenu js-popupMenu">
+        <div class="popupMenu__block">
+            <button type="button" class="popupMenu__close js-popupMenu__close" name="button" onclick="closePopUpMenu()">
+                <svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M29.6697 0.718912C29.2811 0.330311 28.6593 0.330311 28.3096 0.718912L15.1749 13.8148L1.69041 0.291451C1.30181 -0.0971503 0.680052 -0.0971503 0.330311 0.291451C-0.0582901 0.680052 -0.0582901 1.30181 0.330311 1.65155L13.8148 15.1749L0.291451 28.6982C-0.0971503 29.0868 -0.0971503 29.7086 0.291451 30.0583C0.485751 30.2526 0.718912 30.3303 0.990933 30.3303C1.26295 30.3303 1.49611 30.2526 1.69041 30.0583L15.2137 16.535L28.3096 29.6308C28.5039 29.8251 28.737 29.9029 29.0091 29.9029C29.2811 29.9029 29.5143 29.8251 29.7086 29.6308C30.0972 29.2422 30.0972 28.6205 29.7086 28.2707L16.5738 15.1749L29.6697 2.07902C30.0194 1.69041 30.0194 1.06865 29.6697 0.718912Z" fill="#828282"/>
+                </svg>
+            </button>
+            <ul class="popupMenu__menu">
+                <li class="popupMenu__item">
+                    <a href="#" class="popupMenu__menuLink">ABOUT</a>
+                </li>
+                <li class="popupMenu__item">
+                    <a href="#" class="popupMenu__menuLink">PORTFOLIO</a>
+                </li>
+                <li class="popupMenu__item">
+                    <a href="#" class="popupMenu__menuLink">CASE STUDIES</a>
+                </li>
+                <li class="popupMenu__item">
+                    <a href="#" class="popupMenu__menuLink">REVIEWS</a>
+                </li>
+                <li class="popupMenu__item">
+                    <a href="#" class="popupMenu__menuLink">PRICING</a>
+                </li>
+                <li class="popupMenu__item">
+                    <a href="#" class="popupMenu__menuLink">FAQ</a>
+                </li>
+            </ul>
+            <div class="popupLogin">
+                <a href="#" class="popupMenu__link">Log in</a>
+                /
+                <a href="#" class="popupMenu__link">sign up</a>
+            </div>
+        </div>
+    </div>
+    <div class="popupVideo js-popupVideoWatch">
+        <button class="popupVideo__close js-popupVideoWatch" type="button" name="button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                <path d="M14.8348 0.355541C14.6405 0.163357 14.3297 0.163357 14.1548 0.355541L7.58744 6.83216L0.845207 0.144138C0.650907 -0.0480462 0.340026 -0.0480462 0.165155 0.144138C-0.029145 0.336323 -0.029145 0.643818 0.165155 0.816784L6.90738 7.5048L0.145725 14.1928C-0.0485752 14.385 -0.0485752 14.6925 0.145725 14.8655C0.242876 14.9616 0.359456 15 0.495466 15C0.631477 15 0.748057 14.9616 0.845207 14.8655L7.60687 8.17745L14.1548 14.6541C14.2519 14.7502 14.3685 14.7886 14.5045 14.7886C14.6405 14.7886 14.7571 14.7502 14.8543 14.6541C15.0486 14.4619 15.0486 14.1544 14.8543 13.9814L8.28692 7.5048L14.8348 1.02819C15.0097 0.836002 15.0097 0.528507 14.8348 0.355541Z" fill="#000"></path>
+            </svg>
+        </button>
+        <div id="video_container">
+
+        </div>
+    </div>
+
+    <div class="popupVideo js-popupVideo" data-video-block="1">
+        <button class="popupVideo__close js-popupVideo__close" data-link-video-block="1" type="button" name="button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                <path d="M14.8348 0.355541C14.6405 0.163357 14.3297 0.163357 14.1548 0.355541L7.58744 6.83216L0.845207 0.144138C0.650907 -0.0480462 0.340026 -0.0480462 0.165155 0.144138C-0.029145 0.336323 -0.029145 0.643818 0.165155 0.816784L6.90738 7.5048L0.145725 14.1928C-0.0485752 14.385 -0.0485752 14.6925 0.145725 14.8655C0.242876 14.9616 0.359456 15 0.495466 15C0.631477 15 0.748057 14.9616 0.845207 14.8655L7.60687 8.17745L14.1548 14.6541C14.2519 14.7502 14.3685 14.7886 14.5045 14.7886C14.6405 14.7886 14.7571 14.7502 14.8543 14.6541C15.0486 14.4619 15.0486 14.1544 14.8543 13.9814L8.28692 7.5048L14.8348 1.02819C15.0097 0.836002 15.0097 0.528507 14.8348 0.355541Z" fill="#000"></path>
+            </svg>
+        </button>
+        <video class="popupVideo__video" controls  poster="https://s3.amazonaws.com/www.invisionapp.com/static/projects/home/poster-masthead.jpg">
+            <source type="video/mp4" src="img/video.mp4">
+        </video>
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/flickity.pkgd.min.js"></script>
+    <script type="text/javascript">
+        var itemText = [];
+
+        $('.textSlider__blockText').each(function(i, item) {
+            var str = $(this).text();
+            itemText.push(str);
+        });
+
+        $('.js-textSlider_readMore').on('click', function() {
+            var dataId = $(this).data('id');
+            $(this).closest('.textSlider__block').find('.textSlider__blockText').text(itemText[dataId]);
+            $(this).hide();
+        });
+
+        function textSliderStr() {
+            $('.textSlider__blockText').each(function() {
+                var str = $(this).text();
+                var smallText =  str.substring(0, 120);
+
+                $(this).text(smallText);
+            });
+        }
+        window.onload = function() {
+            $('.js-photoVideo__slider').flickity({
+                cellAlign: 'left',
+                contain: true
+            });
+
+
+            $('.js-photoVideoMain').trigger('play');
+
+            $('.js-textSlider').flickity({
+                percentPosition: false,
+                lazyLoad: 2,
+                initialIndex: 1
+            }).on( 'staticClick.flickity', function( event, pointer, cellElement, cellIndex ) {
+              if ( typeof cellIndex == 'number' ) {
+                $('.js-textSlider').flickity( 'selectCell', cellIndex );
+              }
+            });
+            $('.js-caseStudies__slider').flickity({
+                percentPosition: false,
+                cellAlign: 'left',
+                contain: true,
+                groupCells: true,
+                freeScroll: true,
+                // wrapAround: true,
+            });
+            textSliderStr();
+
+        };
+
+        $('.js-faqBlock__link').on('click', function (e) {
+            e.preventDefault();
+            var $this = $(this);
+            var dataId = $this.data('faq-id-link');
+            $this.toggleClass('active');
+
+            $('[data-faq-id-item="'+ dataId +'"]').find('.faqBlock__text').slideToggle();
+        })
+
+        function closePopUpMenu() {
+            var el = document.querySelector(".popupMenu");
+            el.classList.remove("visible")
+        }
+
+        function openPopUpMenu() {
+            var el = document.querySelector(".popupMenu");
+            el.classList.add("visible")
+        }
+
+        $('.js-priceBlock__item').on('click', function (e) {
+            e.preventDefault();
+            var $this = $(this),
+                dataId = $this.data('popup-link');
+            $('[data-popup-id="'+ dataId +'"]').addClass('pricePopUp--active');
+            $('body').addClass('hidden-overflow');
+        });
+
+        $('.js-pricePopUp__close').on('click', function (e) {
+            e.preventDefault();
+            $(this).closest('.js-pricePopUp').removeClass('pricePopUp--active');
+            $('body').removeClass('hidden-overflow');
+        });
+
+        $(document).keyup(function(e) {
+          if (e.keyCode === 27 && $('.pricePopUp').hasClass('pricePopUp--active')) {
+              $('.pricePopUp.pricePopUp--active').removeClass('pricePopUp--active');
+              $('body').removeClass('hidden-overflow');
+          }
+          if (e.keyCode === 27 && $('.popupVideo').hasClass('popupVideo--active')) {
+               $('.js-popupVideo').removeClass('popupVideo--active');
+               $('.js-popupVideo').find('video').trigger('pause');
+          }
+        });
+
+
+        $('.portfolioList__button').on('click', function () {
+            $('.portfolioList__button').each(function () {
+                $(this).removeClass('active');
+            })
+            $(this).addClass('active');
+        })
+
+        $('.js-photovideoMain__watch').on('click', function () {
+            $('.js-photoVideoMain').trigger('play');
+            // $("#youtubeVideo").trigger('play');
+            $('#video_container').html('<iframe src="https://player.vimeo.com/video/118640180?&amp;player_id=ad&amp;autoplay=1" webkitallowfullscreen mozallowfullscreen allowfullscreen controls width="100%" frameborder="0"></iframe>');
+            $('.js-popupVideoWatch').addClass('popupVideo--active');
+            // document.getElementById('photoVideo').play();
+        })
+
+        $('.js-popupVideoWatch').on('click', function () {
+            $('.js-popupVideoWatch').removeClass('popupVideo--active');
+            $('#video_container').find('iframe').remove();
+        })
+
+        $('.js-portfolioList__load').on('click', function () {
+            $('.portfolioItem').removeClass('portfolioItem--hidden');
+            $(this).hide();
+        })
+
+        $('.js-portfolioItem').on('click', function () {
+            var dataId = $(this).data('link-video-block');
+            var $block = $('[data-video-block="' + dataId + '"]');
+
+            $block.find('video').trigger('play');
+            $block.addClass('popupVideo--active');wq1
+        })
+
+        $('.js-popupVideo__close').on('click', function () {
+            var dataId = $(this).data('link-video-block');
+            var $block = $('[data-video-block="' + dataId + '"]');
+
+            $block.find('video').trigger('pause');
+            $block.removeClass('popupVideo--active');
+        })
+
+        
+    </script>
+
+</body>
+</html>
