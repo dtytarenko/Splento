@@ -234,7 +234,7 @@
                 </video>
                 <p class="videolistBlock__title king" id="king">King Suite</p>
                 <p class="videolistBlock__time">15 sec</p>
-                <div class="videolistBlock__watch">
+                <div class="videolistBlock__watch king-btn">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                         <path d="M12 2C17.514 2 22 6.486 22 12C22 17.514 17.514 22 12 22C6.486 22 2 17.514 2 12C2 6.486 6.486 2 12 2ZM12 0C5.373 0 0 5.373 0 12C0 18.627 5.373 24 12 24C18.627 24 24 18.627 24 12C24 5.373 18.627 0 12 0ZM9 17V7L18 12.146L9 17Z" fill="white"/>
                     </svg>
@@ -250,7 +250,7 @@
                 </video>
                 <p class="videolistBlock__title ">Wellbeing Area</p>
                 <p class="videolistBlock__time">15 sec</p>
-                <div class="videolistBlock__watch wellbeing" id="wellbeing">
+                <div class="videolistBlock__watch wellbeing-btn" id="wellbeing">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                         <path d="M12 2C17.514 2 22 6.486 22 12C22 17.514 17.514 22 12 22C6.486 22 2 17.514 2 12C2 6.486 6.486 2 12 2ZM12 0C5.373 0 0 5.373 0 12C0 18.627 5.373 24 12 24C18.627 24 24 18.627 24 12C24 5.373 18.627 0 12 0ZM9 17V7L18 12.146L9 17Z" fill="white"/>
                     </svg>
@@ -269,7 +269,7 @@
                 </video>
                 <p class="videolistBlock__title">Branded video</p>
                 <p class="videolistBlock__time">1 min 30 sec</p>
-                <div class="videolistBlock__watch branded" id="branded">
+                <div class="videolistBlock__watch branded-btn" id="branded">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                         <path d="M12 2C17.514 2 22 6.486 22 12C22 17.514 17.514 22 12 22C6.486 22 2 17.514 2 12C2 6.486 6.486 2 12 2ZM12 0C5.373 0 0 5.373 0 12C0 18.627 5.373 24 12 24C18.627 24 24 18.627 24 12C24 5.373 18.627 0 12 0ZM9 17V7L18 12.146L9 17Z" fill="white"/>
                     </svg>
@@ -474,6 +474,44 @@
 
         </div>
     </div>
+        <!-- king suite video -->
+
+        <div class="branded-video" >
+            <button class="popupVideo__close js-popupVideo__close" data-link-video-block="1" type="button" name="button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                    <path d="M14.8348 0.355541C14.6405 0.163357 14.3297 0.163357 14.1548 0.355541L7.58744 6.83216L0.845207 0.144138C0.650907 -0.0480462 0.340026 -0.0480462 0.165155 0.144138C-0.029145 0.336323 -0.029145 0.643818 0.165155 0.816784L6.90738 7.5048L0.145725 14.1928C-0.0485752 14.385 -0.0485752 14.6925 0.145725 14.8655C0.242876 14.9616 0.359456 15 0.495466 15C0.631477 15 0.748057 14.9616 0.845207 14.8655L7.60687 8.17745L14.1548 14.6541C14.2519 14.7502 14.3685 14.7886 14.5045 14.7886C14.6405 14.7886 14.7571 14.7502 14.8543 14.6541C15.0486 14.4619 15.0486 14.1544 14.8543 13.9814L8.28692 7.5048L14.8348 1.02819C15.0097 0.836002 15.0097 0.528507 14.8348 0.355541Z" fill="#000"></path>
+                </svg>
+            </button>
+            <video class="popupVideo__video" controls  poster="https://s3.amazonaws.com/www.invisionapp.com/static/projects/home/poster-masthead.jpg">
+                <source type="video/mp4" src="img/video.mp4">
+            </video>
+    </div>
+
+    <!-- wellbeing video  -->
+    <div class="king-video" >
+            <button class="popupVideo__close js-popupVideo__close" data-link-video-block="1" type="button" name="button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                    <path d="M14.8348 0.355541C14.6405 0.163357 14.3297 0.163357 14.1548 0.355541L7.58744 6.83216L0.845207 0.144138C0.650907 -0.0480462 0.340026 -0.0480462 0.165155 0.144138C-0.029145 0.336323 -0.029145 0.643818 0.165155 0.816784L6.90738 7.5048L0.145725 14.1928C-0.0485752 14.385 -0.0485752 14.6925 0.145725 14.8655C0.242876 14.9616 0.359456 15 0.495466 15C0.631477 15 0.748057 14.9616 0.845207 14.8655L7.60687 8.17745L14.1548 14.6541C14.2519 14.7502 14.3685 14.7886 14.5045 14.7886C14.6405 14.7886 14.7571 14.7502 14.8543 14.6541C15.0486 14.4619 15.0486 14.1544 14.8543 13.9814L8.28692 7.5048L14.8348 1.02819C15.0097 0.836002 15.0097 0.528507 14.8348 0.355541Z" fill="#000"></path>
+                </svg>
+            </button>
+            <video class="popupVideo__video" controls  poster="https://s3.amazonaws.com/www.invisionapp.com/static/projects/home/poster-masthead.jpg">
+                <source type="video/mp4" src="img/video.mp4">
+            </video>
+    </div>
+
+    <!-- branded -->
+    <div class="wellbeing-video" >
+            <button class="popupVideo__close js-popupVideo__close" data-link-video-block="1" type="button" name="button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                    <path d="M14.8348 0.355541C14.6405 0.163357 14.3297 0.163357 14.1548 0.355541L7.58744 6.83216L0.845207 0.144138C0.650907 -0.0480462 0.340026 -0.0480462 0.165155 0.144138C-0.029145 0.336323 -0.029145 0.643818 0.165155 0.816784L6.90738 7.5048L0.145725 14.1928C-0.0485752 14.385 -0.0485752 14.6925 0.145725 14.8655C0.242876 14.9616 0.359456 15 0.495466 15C0.631477 15 0.748057 14.9616 0.845207 14.8655L7.60687 8.17745L14.1548 14.6541C14.2519 14.7502 14.3685 14.7886 14.5045 14.7886C14.6405 14.7886 14.7571 14.7502 14.8543 14.6541C15.0486 14.4619 15.0486 14.1544 14.8543 13.9814L8.28692 7.5048L14.8348 1.02819C15.0097 0.836002 15.0097 0.528507 14.8348 0.355541Z" fill="#000"></path>
+                </svg>
+            </button>
+            <video class="popupVideo__video" controls  poster="https://s3.amazonaws.com/www.invisionapp.com/static/projects/home/poster-masthead.jpg">
+                <source type="video/mp4" src="img/video.mp4">
+            </video>
+    </div>
+
+    <!-- main-video -->
 
     <div class="popupVideo js-popupVideo" data-video-block="1">
         <button class="popupVideo__close js-popupVideo__close" data-link-video-block="1" type="button" name="button">
@@ -486,38 +524,9 @@
         </video>
     </div>
 
-    <div class="popupVideo js-popupVideo branded" data-video-block="1">
-            <button class="popupVideo__close js-popupVideo__close" data-link-video-block="1" type="button" name="button">
-                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                    <path d="M14.8348 0.355541C14.6405 0.163357 14.3297 0.163357 14.1548 0.355541L7.58744 6.83216L0.845207 0.144138C0.650907 -0.0480462 0.340026 -0.0480462 0.165155 0.144138C-0.029145 0.336323 -0.029145 0.643818 0.165155 0.816784L6.90738 7.5048L0.145725 14.1928C-0.0485752 14.385 -0.0485752 14.6925 0.145725 14.8655C0.242876 14.9616 0.359456 15 0.495466 15C0.631477 15 0.748057 14.9616 0.845207 14.8655L7.60687 8.17745L14.1548 14.6541C14.2519 14.7502 14.3685 14.7886 14.5045 14.7886C14.6405 14.7886 14.7571 14.7502 14.8543 14.6541C15.0486 14.4619 15.0486 14.1544 14.8543 13.9814L8.28692 7.5048L14.8348 1.02819C15.0097 0.836002 15.0097 0.528507 14.8348 0.355541Z" fill="#000"></path>
-                </svg>
-            </button>
-            <video class="popupVideo__video" controls  poster="https://s3.amazonaws.com/www.invisionapp.com/static/projects/home/poster-masthead.jpg">
-                <source type="video/mp4" src="img/video.mp4">
-            </video>
-    </div>
+    <!-- main-video -->
 
-    <div class="popupVideo js-popupVideo king" data-video-block="1">
-            <button class="popupVideo__close js-popupVideo__close" data-link-video-block="1" type="button" name="button">
-                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                    <path d="M14.8348 0.355541C14.6405 0.163357 14.3297 0.163357 14.1548 0.355541L7.58744 6.83216L0.845207 0.144138C0.650907 -0.0480462 0.340026 -0.0480462 0.165155 0.144138C-0.029145 0.336323 -0.029145 0.643818 0.165155 0.816784L6.90738 7.5048L0.145725 14.1928C-0.0485752 14.385 -0.0485752 14.6925 0.145725 14.8655C0.242876 14.9616 0.359456 15 0.495466 15C0.631477 15 0.748057 14.9616 0.845207 14.8655L7.60687 8.17745L14.1548 14.6541C14.2519 14.7502 14.3685 14.7886 14.5045 14.7886C14.6405 14.7886 14.7571 14.7502 14.8543 14.6541C15.0486 14.4619 15.0486 14.1544 14.8543 13.9814L8.28692 7.5048L14.8348 1.02819C15.0097 0.836002 15.0097 0.528507 14.8348 0.355541Z" fill="#000"></path>
-                </svg>
-            </button>
-            <video class="popupVideo__video" controls  poster="https://s3.amazonaws.com/www.invisionapp.com/static/projects/home/poster-masthead.jpg">
-                <source type="video/mp4" src="img/video.mp4">
-            </video>
-    </div>
 
-    <div class="popupVideo js-popupVideo Wellbeing" data-video-block="1">
-            <button class="popupVideo__close js-popupVideo__close" data-link-video-block="1" type="button" name="button">
-                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                    <path d="M14.8348 0.355541C14.6405 0.163357 14.3297 0.163357 14.1548 0.355541L7.58744 6.83216L0.845207 0.144138C0.650907 -0.0480462 0.340026 -0.0480462 0.165155 0.144138C-0.029145 0.336323 -0.029145 0.643818 0.165155 0.816784L6.90738 7.5048L0.145725 14.1928C-0.0485752 14.385 -0.0485752 14.6925 0.145725 14.8655C0.242876 14.9616 0.359456 15 0.495466 15C0.631477 15 0.748057 14.9616 0.845207 14.8655L7.60687 8.17745L14.1548 14.6541C14.2519 14.7502 14.3685 14.7886 14.5045 14.7886C14.6405 14.7886 14.7571 14.7502 14.8543 14.6541C15.0486 14.4619 15.0486 14.1544 14.8543 13.9814L8.28692 7.5048L14.8348 1.02819C15.0097 0.836002 15.0097 0.528507 14.8348 0.355541Z" fill="#000"></path>
-                </svg>
-            </button>
-            <video class="popupVideo__video" controls  poster="https://s3.amazonaws.com/www.invisionapp.com/static/projects/home/poster-masthead.jpg">
-                <source type="video/mp4" src="img/video.mp4">
-            </video>
-    </div>
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="js/flickity.pkgd.min.js"></script>
@@ -670,16 +679,16 @@
             // document.getElementById('photoVideo').play();
         })
 
-        $('.videolistBlock__watch.branded').on('click', function () {
-            $('.js-popupVideo.branded').css('display', 'block');
+        $('.branded-btn').on('click', function () {
+            $('.branded-video').css('display', 'block');
         })
 
-        $('.videolistBlock__watch.wellbeing').on('click', function () {
-            $('.js-popupVideo.wellbeing').css('display', 'block');
+        $('.wellbeing-btn').on('click', function () {
+            $('.wellbeing-king').css('display', 'block');
         })
 
-        $('.videolistBlock__watch.king').on('click', function () {
-            $('.js-popupVideo.king').css('display', 'block');
+        $('.king-btn').on('click', function () {
+            $('.king-video').css('display', 'block');
         })
     </script>
 
